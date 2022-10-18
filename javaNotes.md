@@ -1,3 +1,4 @@
+#Java Notes
 Java is Types language.
 
 Primtive Data Type: byte, short , char , boolean ,int , logn , float , double, 
