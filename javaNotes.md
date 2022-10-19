@@ -4,7 +4,6 @@
 
 **Primtive Data Type**: byte, short , char , boolean ,int , logn , float , double,
 **Non-primitive DT** : String , Array , Class , Object, Interface
-
 ##### Note : All Data type starts with small case letter . E.g : char , string , int
 
 `Range : (in bytes)
@@ -16,6 +15,10 @@ int : 4
 long : 8
 float : 4
 double : 8`
+
+## **Class:**
+1 Every .java file is class in Java. 
+2 Class name convention : MainMethod ✅ mainMethod❌ *(first letter always Capital)*
 
 ## -----------------Input in Java :-------------
 
@@ -50,13 +53,13 @@ int --> float ✅       int --> boolean ❌
 ## ---------- Operators -----------------------
 
 1 Arithmatic Operator 
-        - a) Unary : + - * / %
-        - b) Binary: ++ --
+        - a) Binary : + - * / %    `  / --> quotient ,  % --> remender`
+        - b) Unary: ++ ,  --
 
 2 Realtional Operator 
-3 Logical Operator 
+3 Logical Operator : && , || , !
 4 Bitwise Operator 
-5 Assignment Operator 
+5 Assignment Operator : = , += , -= , *= , /=
 
 a) Unary operator : 
 - i) Pre (++a) : **value change --> use** .. E.g 
@@ -67,3 +70,16 @@ int a=10; int b=++a; // o/p: a=11,b=11
 ```java
 int a=10; int b=a++; // o/p: a=11,b=10
 ```
+
+5) Assignment Operator: 
+```java
+int A =10; 
+A= A+5; // A=15
+// Instead Use shorthand wich is FASTER📈 to execute.😃
+A+= 5; // A=15
+```
+## --------- Conditional Statements -------------
+
+1) if {} --> else                 
+2) if {} --> if {} --> else          `2nd condition check --> EXTAR computational time`
+3) if {} --> else if {} --> else     `1st TRUE --> SKIP ALL REST`
