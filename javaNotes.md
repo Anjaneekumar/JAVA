@@ -6,15 +6,15 @@
 **Non-primitive DT** : String , Array , Class , Object, Interface
 ##### Note : All Data type starts with small case letter . E.g : char , string , int
 
-`Range : (in bytes)
+Range : (in bytes)
 byte : 1
 short : 2
 char : 2
 boolean : 1
 int : 4
-long : 8
-float : 4
-double : 8`
+long : 8        `long longNumber = 15498413598165L;`
+float : 4       `float floatNumber = 14878.456f;`
+double : 8     
 
 ## **Class:**
 1 Every .java file is class in Java. 
