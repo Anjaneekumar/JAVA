@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class AreaOfObjects {
+public class AreaCalculator {
     public Float AreaOfTriangle(float height,float base) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the height & base value of triange: ");
