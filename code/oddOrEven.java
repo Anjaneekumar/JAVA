@@ -9,5 +9,6 @@ public class oddOrEven {
         }else {
             System.out.println("The number "+number+" is Odd.");
         }
+        sc.close();
     }
 }
