@@ -15,7 +15,7 @@ public class SumOfFirstnEvenNum {
         
     }
     public static void printNumber(int num){
-        while (num==1) {
+        while (num>1) {
             System.out.print(num+" ");
             num-=2;
         }
