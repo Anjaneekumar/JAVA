@@ -6,12 +6,14 @@ public class SumOfFirstnEvenNum {
         System.out.print("Enter the nth number: ");
         int n=sc.nextInt();
         if(n%2==0){
-            printNumber(n);
+            // printNumber(n);
+            ForLoopPrintNumber(n);
         }else{
             n-=1;
-            printNumber(n);
+            // printNumber(n);
+            ForLoopPrintNumber(n);
         }
-
+        sc.close();
         
     }
     public static void printNumber(int num){
@@ -31,6 +33,17 @@ public class SumOfFirstnEvenNum {
         }
 
         System.out.println("\n The total is: "+total);
+    }
+
+    private static void ForLoopPrintNumber(int n) {
+        int ans=2;
+        int total=0;
+        for(ans=2;ans<=n;){
+            System.out.print(ans+" ");
+            ans+=2;
+            total+=ans;
+        }
+        System.out.println("The sum is: "+total);
     }
 
 }
