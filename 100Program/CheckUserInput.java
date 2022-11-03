@@ -8,6 +8,7 @@ public class CheckUserInput {
             System.out.println("You Entered an Integer.");
         } else {
             System.out.println("You Entered non int value");
+            sc.close();
         }
     }
 }

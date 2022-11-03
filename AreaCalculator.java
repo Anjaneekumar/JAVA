@@ -7,6 +7,7 @@ public class AreaCalculator {
         height=sc.nextFloat();
         base = sc.nextFloat();
         float ans = (height*base)/2;
+        sc.close();
         return ans;
         // System.out.println("The area of triangle with base of "+base+" and height of "+height+" is ");
     }

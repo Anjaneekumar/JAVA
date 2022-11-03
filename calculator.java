@@ -8,6 +8,7 @@ public class calculator {
         System.out.println("Enter value of b: ");
         int b= sc.nextInt();
         int ans=0;
+        sc.close();
         // if user enter X or x then only exit .. otherwise keep taking inputs
         
         while(true){
