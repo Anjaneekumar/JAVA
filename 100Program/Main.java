@@ -24,7 +24,7 @@ public class Main
         //     num/=10;
         //     arr[i]=rem;
         //     i++;
-        int lenght=arr.length;
+        // int lenght=arr.length;
         // to calculate sum of digits
         int sumOfAllDigits=0;
         int productOfAllDigits = 1;
@@ -43,6 +43,7 @@ public class Main
         Main obj = new Main();
         Scanner sc = new Scanner(System.in);
 		System.out.println(obj.subtractProductAndSum(sc.nextInt()));
+        sc.close();
         
 	}
 }
